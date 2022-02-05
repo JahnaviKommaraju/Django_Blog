@@ -14,8 +14,12 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # In challenges project-> we used this method=> 
+    # path('blog/',include('blog.urls')) i.e it on empty path it shows error and /blog/ gives homepage #http://localhost:8000/blog/posts/my-first-post
+    #but in real time projects we need homepage on empty path. So,
+    path("",include('blog.urls'))  #http://localhost:8000/
 ]

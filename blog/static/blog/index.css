@@ -1,0 +1,82 @@
+#welcome{
+    background: linear-gradient(to right top, rgb(98, 65, 219), rgb(32, 38, 105));
+    padding: 6rem 12%;
+}
+
+#welcome header{
+    display: flex;
+    align-items: flex-start;
+    margin: 3rem auto;
+}
+
+#welcome img{
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    object-position: top;
+    border: 5px solid white;
+    border-radius: 12px;
+    background-color: rgb(239, 247, 170) ;
+    transform: rotate(-5deg);
+    box-shadow: 0 2p 8px rgba(0, 0, 0 , 0.25); 
+    
+}
+
+#welcome h2{
+    font-size: 4rem;
+    margin: 0 0 0 2rem;
+    color: rgb(233, 180, 220);
+    width: 10rem;
+}
+
+#welcome p{
+    color: rgb(228, 172, 172);
+    font-size: 1.5rem;
+}
+
+#latest-posts{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 60rem;
+    margin: -6rem auto 2rem auto;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0 , 0.4);
+}
+
+#latest-posts h2{
+    text-align: center;
+}
+
+#latest-posts ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+#latest-posts li{
+    flex: 1;
+}
+
+#about{
+    text-align: center;
+    padding: 3rem;
+    background-color: rgb(235, 109, 26) ;
+    margin-top: 5rem;
+}
+
+
+#about h2{
+    font-size: 3rem;
+}
+
+#about p{
+    font-size: 1.5rem;
+    color: rgb(20, 13, 13);
+}
+
+
+
+
+

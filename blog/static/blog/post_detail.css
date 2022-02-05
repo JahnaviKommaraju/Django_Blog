@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(247, 242, 235);
+}
+
+#main-navigation{
+    background-color: rgb(80, 11, 145);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+
+#summary{
+    margin: 8rem auto 3rem;
+    padding: 2rem;
+    width: 90%;
+    max-width: 90rem;
+    border-radius: 16px;
+    background-color: rgb(80, 11, 145);
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    height: 22rem;
+}
+
+#summary h2{
+    color: white;
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+}
+
+.tag{
+    background-color: white;
+    color: rgb(80, 11, 145);
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+#summary article{
+    position: relative;
+    top:2rem;
+    right: 3rem;
+    padding: 1rem,2rem;
+    border-radius: 12px;
+    text-align: right;
+    color: white;
+    position: relative;
+    top: -180px;
+}
+
+#summary article img{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 12px;
+    transform: rotateZ(5deg);
+    border: 5px solid white;
+    margin-bottom: 1rem ;
+}
+#summary a{
+    color: white;
+    text-decoration: none;
+}
+
+#summary address {
+    font-weight: bold;
+}
+
+#summary time {
+    font-weight: bold;
+}
+
+main{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 85rem;
+    margin: 4rem auto 4rem auto;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0 , 0.4);
+}
+
+#about h2{
+    font-size: 2rem;
+}
+
+#about p{
+    font-size: 1.5rem;
+    color: rgb(54, 10, 2);
+}
+
