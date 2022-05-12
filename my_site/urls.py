@@ -15,6 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
+from django.conf.urls.static import static #to serve uplaoded files
+from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -22,4 +24,4 @@ urlpatterns = [
     # path('blog/',include('blog.urls')) i.e it on empty path it shows error and /blog/ gives homepage #http://localhost:8000/blog/posts/my-first-post
     #but in real time projects we need homepage on empty path. So,
     path("",include('blog.urls'))  #http://localhost:8000/
-]
+]+ static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
